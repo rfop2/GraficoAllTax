@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.js" integrity="sha512-zO8oeHCxetPn1Hd9PdDleg5Tw1bAaP0YmNvPY8CwcRyUk7d7/+nyElmFrB6f7vg4f7Fv4sui1mcep8RIEShczg==" crossorigin="anonymous"></script>
+    <title>AllTax - Gráfico</title>
+</head>
+<body>
+    <!-- header para menu e user -->
+    <header>
+        <h3>Menu</h3>
+        <div class="ball"></div>
+        <h3>User Name</h3>
+        <h3 class="center">Sales Report</h3>
+    </header>
+    <!-- section para selects -->
+    <section id="selects">
+        <div class="select-ctn">
+            <label for="">Category: </label>
+            <select name="" id="categorias-select" >
+                <option value="comida">Food</option>
+                <option value="vestuario" >Clothing</option>
+            </select>
+        </div>
+        <div class="select-ctn">
+            <label for="">Product: </label>
+            <select name="" id="produtos">
+                <option value=""></option>
+            </select>
+        </div>
+        <div class="select-ctn">
+            <label for="">Brand: </label>
+            <select name="" id="marcas">
+                <option value=""></option>
+            </select>
+        </div>
+    </section>
+    <!-- section para o grafico -->
+    <div class="titles">
+        <h4 class="p1">Sales By Month for: </h4>
+        <section id="grafico">
+            <p>Sales</p>
+            <canvas id="myChart" width="1200" height="600"></canvas>
+        
+        </section>
+    <h4 class="p1">Months</h4>
+    </div>
+    
+</body>
+<script src="main.js"></script>
+
+</html>
