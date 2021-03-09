@@ -104,84 +104,84 @@ $(document).ready(function (){
     $("#marcas").on('click' , function (){
         var val = $(this).val();
         if(val == "hamburguer1"){
-            $("#marcas").html("<option value='hamburguer1'>Hamburguer1</option><option value='hamburguer2'>Hamburguer2</option><option value='hamburguer3'>Hamburguer3</option>");
+            $("#marcas").html("<option value='hamburguer1' selected>Hamburguer1</option><option value='hamburguer2'>Hamburguer2</option><option value='hamburguer3'>Hamburguer3</option>");
             myChart.data.datasets[0].data[0] = 120;
             myChart.data.datasets[0].data[1] = 220;
             myChart.data.datasets[0].data[2] = 410;
             myChart.data.datasets[0].data[3] = 640;
             myChart.update();
         } else if(val == "hamburguer2"){
-            $("#marcas").html("<option value='hamburguer1'>Hamburguer1</option><option value='hamburguer2'>Hamburguer2</option><option value='hamburguer3'>Hamburguer3</option>");
+            $("#marcas").html("<option value='hamburguer1'>Hamburguer1</option><option value='hamburguer2' selected>Hamburguer2</option><option value='hamburguer3'>Hamburguer3</option>");
             myChart.data.datasets[0].data[0] = 40;
             myChart.data.datasets[0].data[1] = 330;
             myChart.data.datasets[0].data[2] = 240;
             myChart.data.datasets[0].data[3] = 360;
             myChart.update();
         } else if(val == "hamburguer3"){
-            $("#marcas").html("<option value='hamburguer1'>Hamburguer1</option><option value='hamburguer2'>Hamburguer2</option><option value='hamburguer3'>Hamburguer3</option>");
+            $("#marcas").html("<option value='hamburguer1'>Hamburguer1</option><option value='hamburguer2'>Hamburguer2</option><option value='hamburguer3' selected>Hamburguer3</option>");
             myChart.data.datasets[0].data[0] = 110;
             myChart.data.datasets[0].data[1] = 210;
             myChart.data.datasets[0].data[2] = 410;
             myChart.data.datasets[0].data[3] = 540;
             myChart.update();
         } else if(val == "shirt1"){
-            $("#marcas").html("<option value='shirt1'>Shirt1</option><option value='shirt2'>Shirt2</option><option value='shirt3'>Shirt3</option>");
+            $("#marcas").html("<option value='shirt1' selected>Shirt1</option><option value='shirt2'>Shirt2</option><option value='shirt3'>Shirt3</option>");
             myChart.data.datasets[0].data[0] = 320;
             myChart.data.datasets[0].data[1] = 550;
             myChart.data.datasets[0].data[2] = 640;
             myChart.data.datasets[0].data[3] = 860;
             myChart.update();
         } else if(val == "shirt2"){
-            $("#marcas").html("<option value='shirt1'>Shirt1</option><option value='shirt2'>Shirt2</option><option value='shirt3'>Shirt3</option>");
+            $("#marcas").html("<option value='shirt1'>Shirt1</option><option value='shirt2' selected>Shirt2</option><option value='shirt3'>Shirt3</option>");
             myChart.data.datasets[0].data[0] = 180;
             myChart.data.datasets[0].data[1] = 150;
             myChart.data.datasets[0].data[2] = 390;
             myChart.data.datasets[0].data[3] = 620;
             myChart.update();
         } else if(val == "shirt3"){
-            $("#marcas").html("<option value='shirt1'>Shirt1</option><option value='shirt2'>Shirt2</option><option value='shirt3'>Shirt3</option>");
+            $("#marcas").html("<option value='shirt1'>Shirt1</option><option value='shirt2'>Shirt2</option><option value='shirt3' selected>Shirt3</option>");
             myChart.data.datasets[0].data[0] = 20;
             myChart.data.datasets[0].data[1] = 50;
             myChart.data.datasets[0].data[2] = 120;
             myChart.data.datasets[0].data[3] = 200;
             myChart.update();
         } else if(val == "sushi1"){
-            $("#marcas").html("<option value='sushi1'>Sushi1</option><option value='sushi2'>Sushi2</option><option value='sushi3'>Sushi3</option>");
+            $("#marcas").html("<option value='sushi1' selected>Sushi1</option><option value='sushi2'>Sushi2</option><option value='sushi3'>Sushi3</option>");
             myChart.data.datasets[0].data[0] = 50;
             myChart.data.datasets[0].data[1] = 350;
             myChart.data.datasets[0].data[2] = 540;
             myChart.data.datasets[0].data[3] = 760;
             myChart.update();
         } else if(val == "sushi2"){
-            $("#marcas").html("<option value='sushi1'>Sushi1</option><option value='sushi2'>Sushi2</option><option value='sushi3'>Sushi3</option>");
+            $("#marcas").html("<option value='sushi1'>Sushi1</option><option value='sushi2' selected>Sushi2</option><option value='sushi3'>Sushi3</option>");
             myChart.data.datasets[0].data[0] = 90;
             myChart.data.datasets[0].data[1] = 250;
             myChart.data.datasets[0].data[2] = 640;
             myChart.data.datasets[0].data[3] = 1060;
             myChart.update();
         } else if(val == "sushi3"){
-            $("#marcas").html("<option value='sushi1'>Sushi1</option><option value='sushi2'>Sushi2</option><option value='sushi3'>Sushi3</option>");
+            $("#marcas").html("<option value='sushi1'>Sushi1</option><option value='sushi2'>Sushi2</option><option value='sushi3' selected>Sushi3</option>");
             myChart.data.datasets[0].data[0] = 10;
             myChart.data.datasets[0].data[1] = 120;
             myChart.data.datasets[0].data[2] = 440;
             myChart.data.datasets[0].data[3] = 600;
             myChart.update();
         } else if(val == "trousers1"){
-            $("#marcas").html("<option value='trousers1'>Trousers1</option><option value='trousers2'>Trousers2</option><option value='trousers3'>Trousers3</option>");
+            $("#marcas").html("<option value='trousers1' selected>Trousers1</option><option value='trousers2'>Trousers2</option><option value='trousers3'>Trousers3</option>");
             myChart.data.datasets[0].data[0] = 80;
             myChart.data.datasets[0].data[1] = 150;
             myChart.data.datasets[0].data[2] = 310;
             myChart.data.datasets[0].data[3] = 540;
             myChart.update();
         } else if(val == "trousers2"){
-            $("#marcas").html("<option value='trousers1'>Trousers1</option><option value='trousers2'>Trousers2</option><option value='trousers3'>Trousers3</option>");
+            $("#marcas").html("<option value='trousers1'>Trousers1</option><option value='trousers2' selected>Trousers2</option><option value='trousers3'>Trousers3</option>");
             myChart.data.datasets[0].data[0] = 280;
             myChart.data.datasets[0].data[1] = 320;
             myChart.data.datasets[0].data[2] = 610;
             myChart.data.datasets[0].data[3] = 1040;
             myChart.update();
         } else if(val == "trousers3"){
-            $("#marcas").html("<option value='trousers1'>Trousers1</option><option value='trousers2'>Trousers2</option><option value='trousers3'>Trousers3</option>");  
+            $("#marcas").html("<option value='trousers1'>Trousers1</option><option value='trousers2'>Trousers2</option><option value='trousers3' selected>Trousers3</option>");  
             myChart.data.datasets[0].data[0] = 480;
             myChart.data.datasets[0].data[1] = 620;
             myChart.data.datasets[0].data[2] = 1010;
